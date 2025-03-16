@@ -1,2 +1,2 @@
 # ai-study-hub
-Streamlit / Python
+ streamlit/Python

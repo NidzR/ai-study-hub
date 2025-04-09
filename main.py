@@ -1,6 +1,6 @@
-import google.generativeai as genai # type: ignore
+import google.generativeai as genai 
 import os
-from dotenv import load_dotenv # type: ignore
+from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()

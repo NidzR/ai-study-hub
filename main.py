@@ -7,7 +7,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 def generate_notes(topic):
-    model = genai.GenerativeModel("gemini-1.5-pro")
+    model = genai.GenerativeModel("gemini-2.0-flash")
     response = model.generate_content(f"Generate educational notes on {topic} in simple language.")
     return response.text
 
